@@ -1,0 +1,431 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+hr{
+   padding: 1px;
+   margin: 20px 620px;
+   background: #61D2B4;
+}
+li{
+   list-style: none;
+}
+/* head
+============================================================================ */
+.head{
+   background: url(../img/products.jpg) no-repeat;
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   background-position-x: center;
+   background-attachment: fixed;
+}
+.heading{
+   background: rgba(0, 0, 0, 0.459);
+   height: 100vh;
+   width: 100%;
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+}
+.heading_item1 h1{
+   font-size: 70px;
+   color: rgba(255, 255, 255, 0.87);
+   font-weight: bold;
+   font-family: cursive;
+   padding: 80px;
+}
+.heading_item1 p{
+   color: white;
+   line-height: 1.5em;
+   word-spacing: 1px;
+   letter-spacing: 2px;
+   padding:0px 50px;
+}
+.heading_item2{
+   background: rgba(255, 255, 255, 0.418);
+   padding: 40px;
+   margin: 25px;
+   text-align: center;
+   border-radius: 4px;
+}
+.heading_item2 img{
+   height: 260px;
+   width: 350px;
+   border-radius: 4px;
+}
+.heading_item2 h3{
+   color: white;
+   font-weight: bold;
+   font-family: cursive;
+   font-size: 30px;
+   text-align: left;
+   margin-top: 15px;
+}
+.heading_item2 p{
+   text-align: left;
+   margin-top: 5px;
+   color: white;
+}
+.heading_item2 span{
+   display: flex;
+   justify-content: flex-start;
+}
+
+.btn{
+   background: rgba(0, 0, 0, 0.322);
+   color: white;
+   padding: 10px 25px;
+   font-size: 15px;
+   margin-top: 10px;
+   border-radius: 5px;
+   border: 1px solid white;
+   transition: 0.2s;
+}
+.btn1:hover{
+   background: rgb(223, 66, 66);
+}
+.btn2:hover{
+   background: #61D2B4;
+}
+
+
+@media(max-width: 1400px){
+  height: 600px;
+}
+
+
+/* about=========================================================================== */
+.about_item1{
+   text-align: center;
+   margin-top: 80px;
+}
+.about_item1 h1{
+   font-size: 50px;
+   font-weight: bold;
+   color: #333;
+}
+.about_item1 p{
+   color: gray;
+}
+.about_item2{
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: 1fr 1fr 1fr;
+   text-align:center;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   color: #333;
+}
+.about_item2 h1{
+   padding: 20px;
+   color: #333;
+}
+.about_item2 p{
+   padding: 10px;
+   color: gray;
+   line-height: 1.8em;
+}
+/* feature
+=================================================================== */
+.feature{
+   background: url(../img/grass.jpg) no-repeat center;
+   height: 500px;
+   width: 100%;
+   background-size: cover;
+}
+.feature_item{
+   height: 500px;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.233);
+}
+.feature_item ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 40px;
+   padding-top: 50px;
+   padding-left: 100px;
+   padding-right: 100px;
+}
+.feature_item ul li{
+   color: lightgray;
+   font-size: 18px;
+   list-style: circle;
+}
+.feature_item ul li h1{
+   color: #61D2B4;
+   font-size: 28px;
+   padding: 10px 0px ;
+   font-weight: bold;
+}
+/* pricing
+=================================================== */
+
+.pricing{
+   margin: 100px 20px;
+   text-align: center;
+}
+.pricing h1{
+   font-size: 50px;
+   font-weight: bold;
+   color: #333;
+}
+.pricing p{
+   color: gray;
+}
+.pricing_table{
+   margin-top: 50px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   line-height: 3em;
+   grid-gap: 40px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.pricing_table hr{
+   padding: 1px;
+   margin: 20px 520px;
+   background: #61D2B4;
+}
+.pricing_table div{
+   
+   padding-bottom: 20px;
+}
+.pricing_table div:hover{
+   box-shadow: 1px 2px 3px 3px rgba(0, 0, 0, 0.178);
+}
+.pricing_table div h1{
+   font-size: 25px;
+   background: lightgray;
+   padding: 15px 0px ;
+}
+.pricing_table div p{
+   font-size: 40px;
+   padding: 20px;
+   color: #61D2B4;
+}
+.price_btn{
+   background:#61D2B4 ;
+   font-size: 18px;
+   padding: 10px 40px;
+   border: none;
+   border-radius: 30px;
+   color: white;
+   margin-top: 30px;
+}
+.price_btn:hover{
+   background: rgb(76, 199, 166);
+   transition: 0.3s;
+}
+
+/* other products
+===================================================== */
+.other{
+   background: #61D2B4;
+   height: 400px;
+   width: 100%;
+   text-align: center;
+}
+
+
+.other h1{
+   color: white;
+   font-weight: bold;
+   padding-top: 80px;
+   font-size: 35px;
+}
+.other p{
+   color: white;
+   line-height: 1.7em;
+   padding: 40px;
+}
+.other_btn{
+   background: rgb(59, 180, 148);
+   border: none;
+   transition: 0.4s;
+}
+.other_btn:hover{
+   background: white;
+   color: #61D2B4;
+   transition: 0.5s;
+}
+/* our team
+===================================================================== */
+.team{
+   margin-top: 100px;
+   text-align: center;
+}
+.team h1{
+   font-size: 50px;
+   color: #333;
+   font-weight: bold;
+}
+.team p{
+   color: gray;
+   padding: 10px;
+}
+.our_team{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   margin: 20px 40px;
+}
+.our_team div{
+   margin-bottom: 10px;
+}
+
+.our_team div img{
+   height: 250px;
+   width: 280px;
+}
+.our_team div h3{
+   color: #333;
+   margin-top: 10px;
+}
+.our_team div div{
+   display: flex;
+   justify-content: center;
+}
+.our_team div div i{
+   font-size: 20px;  
+   padding: 0px 10px;
+}
+/* counting
+=========================================================== */
+.counting{
+   margin-top: 100px;
+}
+.counting_bg{
+   background: url(../img/hats.jpg) no-repeat center;
+   height: 300px;
+   width: auto;
+   background-position: center;
+   background-size: cover;
+}
+.counting_item{
+   background: rgba(97, 210, 180, 0.637);
+   background-size: cover;
+   height: 300px;
+   width: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.counting_item div{
+   padding: 40px;
+   text-align: center;
+}
+
+.counting_item div h1{
+   font-size: 40px;
+}
+.counting_item div p{
+   font-size: 20px;
+   text-align: center;
+   letter-spacing: 1.5px;
+   padding: 10px;
+}
+
+/* blog */
+.blog{
+   margin-top: 100px;
+}
+.blog h1{
+   text-align: center;
+   font-size: 50px;
+   color: #333;
+   font-weight: bold;
+}
+.blog p{
+   text-align: center;
+   color: gray;
+}
+
+.recent_blog{
+   text-align: center;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 40px 100px 0px 100px;;
+}
+.recent_blog div img{
+   height: 220px;
+   width: 350px;
+}
+.recent_blog div p{
+   padding: 2px;
+}
+.recent_blog div div h4{
+   text-align: left;
+   color: #333;
+   margin-left: 20px;
+}
+.recent_blog div div p{
+   text-align: left;
+   margin-left: 20px;
+}
+.recent_blog div div a{
+   text-decoration: none;
+}
+/* contact
+============================================================================= */
+.contact{
+   margin-top: 100px;
+   text-align: center;
+   background: #61D2B4;
+   padding: 80px;
+}
+.contact_container form label{
+   color: #333;
+   font-size: 20px;
+   font-weight: bold;
+}
+ .contact h1{
+   font-size: 50px;
+   color: #333;
+   font-weight: bold;
+}
+.contact_container form{
+   margin-top: 40px;
+}
+.btn_submit{
+   background: white;
+   color: rgb(23, 146, 113);
+   padding: 8px 60px ;
+   margin-top: 5px;
+   border: none;
+   border-radius: 20px;
+   transition: 0.4s;
+}
+.btn_submit:hover{
+   color: white;
+   background:rgb(23, 146, 113);
+   transition: 0.4s;
+}
+.form-control{
+ font-size: 15px;
+ padding: 10px 5px;
+ margin-top: 10px;
+ margin-bottom: 20px;
+ width: 800px;
+ height: 50px;
+}
+.form-message{
+   height: 100px;
+   width: 800px;
+   margin-top: 10px;
+   font-size: 15px;
+   padding: 10px 5px;
+   margin-bottom: 20px;
+}
+
+/* links
+================================ */
+footer{
+   background: #333;
+   color: lightgray;
+   text-align: center;
+   padding: 10px;
+   
+}
